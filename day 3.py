@@ -33,7 +33,7 @@ Checkbutton(root, text="java", variable=var1).grid(row = 12,column = 2)
 var2 = IntVar()
 Checkbutton(root, text="python", variable=var2).grid(row = 12,column = 3)
 
-
+# making a text input from user
 Firstname1 = Entry(root).grid(row = 1,column = 2)
 Lastna = Entry(root).grid(row = 2,column = 2)
 Adderss1=Entry(root).grid(row = 3,column = 2)
@@ -49,7 +49,6 @@ def onClick():
     tkinter.messagebox.showinfo("Welcome", "Yor Details Submitted  Successfully !")
 
 
-# Create a Button
 Button(root, text="Submit", command=onClick,width=20,bg='brown',fg='white').grid(row = 14,column = 2)
 
 
